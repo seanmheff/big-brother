@@ -1,36 +1,70 @@
-<div class="jumbotron">
-  <h2><%= gettext "Welcome to %{name}!", name: "Phoenix" %></h2>
-  <p class="lead">A productive web framework that<br />does not compromise speed and maintainability.</p>
-</div>
+<svg height="100%" width="100%" viewBox="0 0 960 540" preserveAspectRatio="none">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
 
-<div class="row marketing">
-  <div class="col-lg-6">
-    <h4>Resources</h4>
-    <ul>
-      <li>
-        <a href="http://phoenixframework.org/docs/overview">Guides</a>
-      </li>
-      <li>
-        <a href="https://hexdocs.pm/phoenix">Docs</a>
-      </li>
-      <li>
-        <a href="https://github.com/phoenixframework/phoenix">Source</a>
-      </li>
-    </ul>
-  </div>
-
-  <div class="col-lg-6">
-    <h4>Help</h4>
-    <ul>
-      <li>
-        <a href="http://groups.google.com/group/phoenix-talk">Mailing list</a>
-      </li>
-      <li>
-        <a href="http://webchat.freenode.net/?channels=elixir-lang">#elixir-lang on freenode IRC</a>
-      </li>
-      <li>
-        <a href="https://twitter.com/elixirphoenix">@elixirphoenix</a>
-      </li>
-    </ul>
-  </div>
-</div>
+ <g>
+  <title>Dev Code</title>
+  <rect x="-1" y="-1" width="962" height="542" id="canvas_background" fill="#333333"/>
+  <g id="canvasGrid" display="none">
+   <rect id="svg_1" width="100%" height="100%" x="0" y="0" stroke-width="0" fill="url(#gridpattern)"/>
+  </g>
+ </g>
+ <g>
+  <title>Development</title>
+  <g id="JEM_bounding_box">
+   <rect fill="#333333" stroke-opacity="null" x="158.317697" y="13.320763" width="728.035402" height="193.342736" id="svg_24" stroke="#000"/>
+   <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" x="827.017046" y="39.988527" id="svg_26" font-size="26" font-family="Euphoria, sans-serif" text-anchor="start" xml:space="preserve">JEM</text>
+  </g>
+  <g id="JEM-Dev-Release_bounding_box">
+   <rect fill="#333333" stroke-opacity="null" x="36.311769" y="255.999327" width="856.708329" height="198.009638" id="svg_65" stroke="#000"/>
+   <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" x="679.676094" y="444.008271" id="svg_66" font-size="26" font-family="Euphoria, sans-serif" text-anchor="start" xml:space="preserve">JEM-Dev-Release</text>
+  </g>
+  <path fill="none" stroke-width="null" stroke-opacity="null" fill-opacity="null" id="svg_59" d="m225.98764,47.32251c0,0 -1.561988,0 -3.123958,0c-3.123958,0 -4.685947,0 -7.028911,0c-1.561988,0 -3.904953,0 -6.247935,0c-1.56197,0 -2.986306,1.275308 -4.685929,1.716136c-2.280296,0.591437 -3.966209,0.677739 -6.247935,1.716131c-3.226827,1.468503 -5.529162,3.301813 -8.590881,5.148398c-3.991984,2.407651 -6.94188,3.598818 -10.933864,6.006464c-3.061719,1.846595 -7.091168,3.301813 -10.152887,5.148398c-3.991984,2.407651 -6.996075,4.402582 -11.714858,6.006469c-5.431692,1.846208 -9.371875,3.432262 -11.71484,4.290323c-2.342982,0.858071 -3.904953,1.716141 -5.466941,2.574202c-1.561988,0.858071 -3.559902,3.019792 -6.247917,5.148403c-1.416721,1.121886 -4.07889,3.19544 -7.028911,6.006464c-2.503174,2.385239 -5.03779,4.67687 -7.028929,6.864525c-1.991139,2.187645 -3.394329,4.037603 -4.685929,6.006464c-1.021103,1.556538 -2.342982,2.574202 -3.123958,4.290333c-0.780985,1.716141 -1.697174,2.447837 -2.342982,3.432272c-1.021103,1.556528 -1.263107,3.49758 -1.561979,4.290333c-0.422662,1.12111 -0.964235,1.846767 -1.561979,3.432262c-0.422671,1.12112 -0.482122,2.63952 -0.780994,3.432262c-0.422662,1.12112 -0.780985,2.574202 -1.561979,4.290333c-0.780985,1.716131 -0.601551,2.597159 -0.780985,3.432262c-0.401231,1.867378 -0.18325,2.704828 -0.780994,4.290333c-0.422662,1.12112 -1.139308,2.311152 -1.561979,3.432272c-0.597744,1.585495 -0.780994,2.574192 -0.780994,4.290333c0,0.858061 -0.242674,2.643055 -0.780985,5.148394c-0.401231,1.867368 -0.242683,4.359176 -0.780994,6.864535c-0.401222,1.867358 -1.160748,4.139096 -1.561979,6.006454c-0.538311,2.505339 -0.530795,4.312485 -0.780994,6.006474c-0.3956,2.678394 -0.780985,4.290333 -0.780985,5.148403c0,1.716121 -0.379763,3.281025 -0.780994,5.148384c-0.538311,2.505339 -1.168533,5.069279 -1.561979,8.580666c-0.381694,3.406555 -0.780985,8.580666 -0.780985,10.296807c0,3.432262 -0.388584,8.516997 -0.780994,12.870999c-0.384786,4.269457 0.538302,6.933378 0,9.438717c-0.401231,1.867378 -0.780994,3.432262 -0.780994,4.290333c0,1.716141 0,2.574212 0,3.432262c0,1.716141 0,2.574212 0,3.432282c0,0.858051 0,0.858051 0,1.716121c0,0 0,0.858071 -0.780985,0.858071c-0.780994,0 -0.780994,0 -0.780994,0l0,0.858071l0,0" stroke="#000"/>
+  <path fill="none" stroke="#000" stroke-width="null" stroke-opacity="null" fill-opacity="null" id="svg_60" d="m91.314426,231.331453c0,0 -1.364296,-0.637177 -2.000099,-1.333405c-3.511337,-3.845016 -7.822426,-10.024658 -8.000389,-10.667175c-1.037697,-3.746429 -2.666794,-4.666901 -3.333488,-5.333603c0,0 -0.099571,0.35051 -0.666702,0c-1.268135,-0.783752 -0.666702,-2.000092 -1.333397,-2.666794c0,0 0.942848,-0.390533 0,-1.333389c-0.471428,-0.471436 -0.156425,-0.768204 -0.666702,-2.000107c-0.360809,-0.871078 0,-0.666687 0,-0.666687c0.666702,0 3.333496,0 7.333694,0c8.000389,0 12.00058,0 14.000679,0c5.333588,0 7.333687,0 8.667084,0c1.333397,0 3.333496,0 4.666893,0c1.333405,0 2.000099,-0.666702 2.666801,-0.666702c0.666695,0 1.795708,-0.305893 2.666794,-0.666702c0.615952,-0.255142 0.666702,0 1.333397,0c0,0 0.471428,-0.471436 0,0c-0.471428,0.47142 -1.078262,0.717453 -1.333397,1.333405c-0.721626,1.742157 -3.487976,3.852554 -6.666992,7.333679c-3.511337,3.845032 -5.33358,6.666992 -7.333687,8.667099c-1.333397,1.333389 -1.333397,2.000092 -2.000099,2.666794c0,0 -0.666695,0 -0.666695,0c-1.333405,0.666687 -2.000099,1.333389 -2.666801,2.000092c-0.666695,0.666702 -2.14122,1.809494 -4.000191,3.333496c-1.458298,1.195526 -2.05085,1.744949 -2.666801,2.000092c-0.871086,0.360825 -1.129005,1.639282 -2.000092,2.000107c-0.615952,0.255142 -0.666702,0.666702 -1.333405,0.666702c0,0 -0.471428,-0.195267 0,-0.666702c0.471428,-0.471436 0.666702,0 0.666702,0l0,-0.666702l0,0"/>
+  <path fill="#fff" stroke="#000" stroke-width="1.5" stroke-opacity="null" fill-opacity="null" d="m846.231285,74.406456c0,6.09419 -22.84895,11.0345 -51.03456,11.0345m51.03456,-11.0345l0,0c0,6.09419 -22.84895,11.0345 -51.03456,11.0345c-28.1856,0 -51.03455,-4.9403 -51.03455,-11.0345m0,0l0,0c0,-6.09418 22.84895,-11.03449 51.03455,-11.03449c28.18561,0 51.03456,4.94031 51.03456,11.03449l0,44.13801c0,6.09418 -22.84895,11.03448 -51.03456,11.03448c-28.1856,0 -51.03455,-4.9403 -51.03455,-11.03448l0,-44.13801z" id="svg_38"/>
+  <g id="JEM-development-layer">
+   <path fill="#fff" stroke="#000" stroke-width="1.5" stroke-opacity="null" fill-opacity="null" d="m328.23153,30.401593c0,6.09419 -22.84895,11.0345 -51.03456,11.0345m51.03456,-11.0345l0,0c0,6.09419 -22.84895,11.0345 -51.03456,11.0345c-28.1856,0 -51.03455,-4.9403 -51.03455,-11.0345m0,0l0,0c0,-6.09418 22.84895,-11.03449 51.03455,-11.03449c28.18561,0 51.03456,4.94031 51.03456,11.03449l0,44.13801c0,6.09418 -22.84895,11.03448 -51.03456,11.03448c-28.1856,0 -51.03455,-4.9403 -51.03455,-11.03448l0,-44.13801z" id="svg_4"/>
+   <text fill="#000000" stroke="#000" stroke-width="0" x="245.113688" y="58.422108" id="svg_3" font-size="11" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">development</text>
+   <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="249.322112" y="75.323862" id="JEM_development_version" font-size="9" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve"><%= get_version("JEM", "development") %></text>
+  </g>
+  <g id="JEM-release-layer">
+   <path fill="#fff" stroke="#000" stroke-width="1.5" stroke-opacity="null" fill-opacity="null" d="m329.564928,129.739754c0,6.09419 -22.84895,11.0345 -51.03456,11.0345m51.03456,-11.0345l0,0c0,6.09419 -22.84895,11.0345 -51.03456,11.0345c-28.1856,0 -51.03455,-4.9403 -51.03455,-11.0345m0,0l0,0c0,-6.09418 22.84895,-11.03449 51.03455,-11.03449c28.18561,0 51.03456,4.94031 51.03456,11.03449l0,44.13801c0,6.09418 -22.84895,11.03448 -51.03456,11.03448c-28.1856,0 -51.03455,-4.9403 -51.03455,-11.03448l0,-44.13801z" id="svg_69"/>
+   <text fill="#000000" stroke="#000" stroke-width="0" x="257.78097" y="158.426968" id="svg_70" font-size="11" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">release</text>
+   <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="250.65551" y="174.662023" id="JEM_release_version" font-size="9" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve"><%= get_version("JEM", "release") %></text>
+  </g>
+  <g id="JEM-qa-dev-layer">
+   <path fill="#fff" stroke="#000" stroke-width="1.5" stroke-opacity="null" fill-opacity="null" d="m520.898149,77.07312c0,6.09419 -22.84895,11.0345 -51.03456,11.0345m51.03456,-11.0345l0,0c0,6.09419 -22.84895,11.0345 -51.03456,11.0345c-28.1856,0 -51.03455,-4.9403 -51.03455,-11.0345m0,0l0,0c0,-6.09418 22.84895,-11.03449 51.03455,-11.03449c28.18561,0 51.03456,4.94031 51.03456,11.03449l0,44.13801c0,6.09418 -22.84895,11.03448 -51.03456,11.03448c-28.1856,0 -51.03455,-4.9403 -51.03455,-11.03448l0,-44.13801z" id="svg_25"/>
+   <text fill="#000000" stroke="#000" stroke-width="0" x="449.780857" y="105.760334" id="svg_31" font-size="11" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">qa-dev</text>
+   <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="441.988731" y="121.995389" id="JEM_qa-dev_version" font-size="9" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve"><%= get_version("JEM", "qa-dev") %></text>
+  </g>
+  <g id="JEM-qa-rc-layer">
+   <path fill="#fff" stroke="#000" stroke-width="1.5" stroke-opacity="null" fill-opacity="null" d="m685.564714,75.739787c0,6.09419 -22.84895,11.0345 -51.03456,11.0345m51.03456,-11.0345l0,0c0,6.09419 -22.84895,11.0345 -51.03456,11.0345c-28.1856,0 -51.03455,-4.9403 -51.03455,-11.0345m0,0l0,0c0,-6.09418 22.84895,-11.03449 51.03455,-11.03449c28.18561,0 51.03456,4.94031 51.03456,11.03449l0,44.13801c0,6.09418 -22.84895,11.03448 -51.03456,11.03448c-28.1856,0 -51.03455,-4.9403 -51.03455,-11.03448l0,-44.13801z" id="svg_34"/>
+   <text fill="#000000" stroke="#000" stroke-width="0" x="621.114085" y="103.760336" id="svg_36" font-size="11" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">qa-rc</text>
+   <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="606.655296" y="120.662057" id="JEM_qa-rc_version" font-size="9" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve"><%= get_version("JEM", "qa-rc") %></text>
+  </g>
+  <g id="JEM-qa-rc-release">
+   <text fill="#000000" stroke="#000" stroke-width="0" x="771.113996" y="102.427004" id="svg_39" font-size="11" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">qa-release</text>
+   <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="767.321868" y="119.328726" id="JEM_qa-release_version" font-size="9" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve"><%= get_version("JEM", "qa-release") %></text>
+  </g>
+  <g id="svg_48">
+   <path fill="#fff" stroke-width="1.5" stroke-opacity="null" fill-opacity="null" d="m156.547214,319.832388c0,6.09419 -22.84895,11.0345 -51.03456,11.0345m51.03456,-11.0345l0,0c0,6.09419 -22.84895,11.0345 -51.03456,11.0345c-28.1856,0 -51.03455,-4.9403 -51.03455,-11.0345m0,0l0,0c0,-6.09418 22.84895,-11.03449 51.03455,-11.03449c28.18561,0 51.03456,4.94031 51.03456,11.03449l0,44.13801c0,6.09418 -22.84895,11.03448 -51.03456,11.03448c-28.1856,0 -51.03455,-4.9403 -51.03455,-11.03448l0,-44.13801z" id="svg_17" stroke="#000"/>
+   <text fill="#000000" stroke="#000" stroke-width="0" x="60.886662" y="349.894702" id="svg_18" font-size="11" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">jcms-development</text>
+   <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="72.646853" y="365.337967" id="JEM-Dev-Release_jcms-development_version" font-size="9" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve"><%= get_version("JEM-Dev-Release", "jcms-development") %></text>
+  </g>
+  <g id="svg_49">
+   <path fill="#fff" stroke="#000" stroke-width="1.5" stroke-opacity="null" fill-opacity="null" d="m329.888973,319.165688c0,6.09419 -22.84895,11.0345 -51.03456,11.0345m51.03456,-11.0345l0,0c0,6.09419 -22.84895,11.0345 -51.03456,11.0345c-28.1856,0 -51.03455,-4.9403 -51.03455,-11.0345m0,0l0,0c0,-6.09418 22.84895,-11.03449 51.03455,-11.03449c28.18561,0 51.03456,4.94031 51.03456,11.03449l0,44.13801c0,6.09418 -22.84895,11.03448 -51.03456,11.03448c-28.1856,0 -51.03455,-4.9403 -51.03455,-11.03448l0,-44.13801z" id="svg_27"/>
+   <text fill="#000000" stroke="#000" stroke-width="0" x="247.562402" y="351.894799" id="svg_28" font-size="11" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">jcms-release</text>
+  </g>
+  <g id="svg_50">
+   <path fill="#fff" stroke="#000" stroke-width="1.5" stroke-opacity="null" fill-opacity="null" d="m519.231517,321.165785c0,6.09419 -22.84895,11.0345 -51.03456,11.0345m51.03456,-11.0345l0,0c0,6.09419 -22.84895,11.0345 -51.03456,11.0345c-28.1856,0 -51.03455,-4.9403 -51.03455,-11.0345m0,0l0,0c0,-6.09418 22.84895,-11.03449 51.03455,-11.03449c28.18561,0 51.03456,4.94031 51.03456,11.03449l0,44.13801c0,6.09418 -22.84895,11.03448 -51.03456,11.03448c-28.1856,0 -51.03455,-4.9403 -51.03455,-11.03448l0,-44.13801z" id="svg_29"/>
+   <text fill="#000000" stroke="#000" stroke-width="0" x="439.571743" y="353.894897" id="svg_30" font-size="11" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">jcms-qa-dev</text>
+  </g>
+  <g id="svg_51">
+   <path fill="#fff" stroke="#000" stroke-width="1.5" stroke-opacity="null" fill-opacity="null" d="m688.573086,317.83229c0,6.09419 -22.84895,11.0345 -51.03456,11.0345m51.03456,-11.0345l0,0c0,6.09419 -22.84895,11.0345 -51.03456,11.0345c-28.1856,0 -51.03455,-4.9403 -51.03455,-11.0345m0,0l0,0c0,-6.09418 22.84895,-11.03449 51.03455,-11.03449c28.18561,0 51.03456,4.94031 51.03456,11.03449l0,44.13801c0,6.09418 -22.84895,11.03448 -51.03456,11.03448c-28.1856,0 -51.03455,-4.9403 -51.03455,-11.03448l0,-44.13801z" id="svg_61"/>
+   <text fill="#000000" stroke="#000" stroke-width="0" x="611.580109" y="351.228101" id="svg_62" font-size="11" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">jcms-qa-rc</text>
+  </g>
+  <g id="svg_52">
+   <path fill="#fff" stroke="#000" stroke-width="1.5" stroke-opacity="null" fill-opacity="null" d="m845.914059,317.83229c0,6.09419 -22.84895,11.0345 -51.03456,11.0345m51.03456,-11.0345l0,0c0,6.09419 -22.84895,11.0345 -51.03456,11.0345c-28.1856,0 -51.03455,-4.9403 -51.03455,-11.0345m0,0l0,0c0,-6.09418 22.84895,-11.03449 51.03455,-11.03449c28.18561,0 51.03456,4.94031 51.03456,11.03449l0,44.13801c0,6.09418 -22.84895,11.03448 -51.03456,11.03448c-28.1856,0 -51.03455,-4.9403 -51.03455,-11.03448l0,-44.13801z" id="svg_63"/>
+   <text fill="#000000" stroke="#000" stroke-width="0" x="759.587294" y="351.8948" id="svg_64" font-size="11" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">jcms-qa-release</text>
+  </g>
+ </g>
+</svg>
