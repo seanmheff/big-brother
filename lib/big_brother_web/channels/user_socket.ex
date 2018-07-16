@@ -2,7 +2,7 @@ defmodule BigBrotherWeb.UserSocket do
   use Phoenix.Socket
 
   ## Channels
-  # channel "room:*", BigBrotherWeb.RoomChannel
+  channel "version:*", BigBrotherWeb.VersionChannel
 
   ## Transports
   transport :websocket, Phoenix.Transports.WebSocket

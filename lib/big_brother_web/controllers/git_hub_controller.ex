@@ -12,6 +12,12 @@ defmodule BigBrotherWeb.GitHubController do
       _ -> nil
     end
 
-    json conn, %{ repo: repo, branch: branch }
+    # Check if we care about this update
+    if BigBrother.Init.is_monitored_branch?(repo, branch) do
+      BigBrother.Init.fetch_update(repo, branch)
+    end
+
+    # Send <200 OK> to GitHub
+    conn |> send_resp(200, "")
   end
 end

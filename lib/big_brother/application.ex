@@ -10,7 +10,7 @@ defmodule BigBrother.Application do
     children = [
       # Start the endpoint when the application starts
       supervisor(BigBrotherWeb.Endpoint, [
-         BigBrother.State.start_link()
+         BigBrother.Init.start_link()
       ]),
       # Start your own worker by calling: BigBrother.Worker.start_link(arg1, arg2, arg3)
       # worker(BigBrother.Worker, [arg1, arg2, arg3]),

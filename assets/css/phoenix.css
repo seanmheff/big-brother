@@ -10,3 +10,11 @@
 
 /* Phoenix flash messages */
 .alert:empty { display: none; }
+
+a {
+  cursor: pointer;
+}
+
+a text {
+  fill: blue; /* Even for text, SVG use fill over color */
+}

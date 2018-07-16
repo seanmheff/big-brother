@@ -1,5 +1,7 @@
 defmodule BigBrother.GitHub do
   def fetch_version(repo, branch) do
+    IO.puts "GitHub.fetch_version(#{repo}, #{branch})"
+
     url = "https://api.github.com/repos/Jibestream/" <> repo <> "/contents/build_tracker"
 
     http_potion_config = [
