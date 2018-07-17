@@ -2,7 +2,11 @@ defmodule BigBrother.GitHub do
   def fetch_version(repo, branch) do
     IO.puts "GitHub.fetch_version(#{repo}, #{branch})"
 
-    url = "https://api.github.com/repos/Jibestream/" <> repo <> "/contents/build_tracker"
+    # This is a hack - update all git projects to use "build_tracker" (no extension!)
+    url = case repo do
+      "JEM" -> "https://api.github.com/repos/Jibestream/" <> repo <> "/contents/build_tracker"
+      _ -> "https://api.github.com/repos/Jibestream/" <> repo <> "/contents/build_tracker.txt"
+    end
 
     http_potion_config = [
       basic_auth: { System.get_env("API_USER"), System.get_env("API_PASS") },
@@ -14,7 +18,7 @@ defmodule BigBrother.GitHub do
 
     case status_code do
       200 -> decode_api_response(body)
-      _ -> "Unknown"
+      _ -> "Unknown version"
     end
   end
 

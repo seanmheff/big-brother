@@ -23,9 +23,4 @@ defmodule BigBrotherWeb.Router do
 
     post "/", GitHubController, :receive_webhook
   end
-
-  # Other scopes may use custom stacks.
-  # scope "/api", BigBrotherWeb do
-  #   pipe_through :api
-  # end
 end

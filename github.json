@@ -1,4 +1,5 @@
 {
-  "JEM": ["development", "release", "qa-rc", "qa-dev", "qa-release"],
-  "JEM-Dev-Release": ["jcms-development", "jcms-release", "jcms-qa-rc", "jcms-qa-dev", "jcms-qa-release"]
+  "JEM": ["development", "release", "qa-rc", "qa-dev", "qa-release", "sales-release", "integ-release", "uat-release", "ga-release"],
+  "JEM-Dev-Release": ["jcms-development", "jcms-release", "jcms-qa-rc", "jcms-qa-dev", "jcms-qa-release"],
+  "JEM-Release": ["sales-staging", "integ-staging", "uat-staging", "ga-staging", "sales-release", "integ-release", "uat-release", "ga-release"]
 }

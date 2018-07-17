@@ -18,7 +18,7 @@ channel.join()
 const svg = {
   draw: (repo, branch, version) => {
     console.debug("draw", repo, branch, version)
-    const element = document.querySelector(`svg #${repo}_${branch}_version`)
+    const element = document.querySelector(`svg #${repo} #${branch} #version tspan`)
     if (element) element.innerHTML = version
   },
 

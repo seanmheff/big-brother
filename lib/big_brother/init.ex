@@ -1,15 +1,12 @@
 defmodule BigBrother.Init do
   use Agent 
 
-  # Agent Callbacks
   def start_link do
     Agent.start_link(fn() -> fetch_all_versions() end, name: __MODULE__)
   end
 
-  # Our functions
   def read_config do
-    with {:ok, body} <- File.read("./github.json"),
-         {:ok, json} <- Poison.decode(body), do: json
+    File.read!("./github.json") |> Poison.decode!
   end
 
   def fetch_update(repo, branch) do
@@ -29,7 +26,6 @@ defmodule BigBrother.Init do
     |> Enum.into(%{})
   end
 
-  # Helpers
   def get_all_versions do
     Agent.get(__MODULE__, fn(data) -> data end)
   end
