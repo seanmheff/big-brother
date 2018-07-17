@@ -1,4 +1,4 @@
 {
   "JEM": ["development", "release", "qa-rc", "qa-dev", "qa-release"],
-  "JEM-Dev-Release": ["jcms-development"]
+  "JEM-Dev-Release": ["jcms-development", "jcms-release", "jcms-qa-rc", "jcms-qa-dev", "jcms-qa-release"]
 }

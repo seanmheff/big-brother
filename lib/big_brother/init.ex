@@ -6,7 +6,6 @@ defmodule BigBrother.Init do
     Agent.start_link(fn() -> fetch_all_versions() end, name: __MODULE__)
   end
 
-
   # Our functions
   def read_config do
     with {:ok, body} <- File.read("./github.json"),

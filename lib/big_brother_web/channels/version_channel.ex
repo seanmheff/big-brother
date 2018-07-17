@@ -3,7 +3,7 @@ defmodule BigBrotherWeb.VersionChannel do
 
   def join("version:subscribe", _message, socket) do
     IO.puts "BigBrotherWeb.VersionChannel.join"
-    {:ok, socket}
+    {:ok, BigBrother.Init.get_all_versions, socket}
   end
 
   def emit(repo, branch, version) do

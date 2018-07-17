@@ -1,20 +1,32 @@
 import { Socket } from "phoenix"
 
-let socket = new Socket("/socket")
+const socket = new Socket("/socket")
 
 socket.connect()
 
-// Now that you are connected, you can join channels with a topic:
-let channel = socket.channel("version:subscribe", {})
+const channel = socket.channel("version:subscribe")
 
-channel.on("publish", payload => {
-  console.debug("publish", payload)
-  const { repo, branch, version } = payload
-  document.querySelector('svg').querySelector(`#${repo}_${branch}_version`).innerHTML = version
+channel.on("publish", ({ repo, branch, version }) => {
+  svg.draw(repo, branch, version)
 })
 
 channel.join()
-  .receive("ok", resp => { console.log("Joined successfully", resp) })
+  .receive("ok", state => svg.drawAll(state))
   .receive("error", resp => { console.log("Unable to join", resp) })
 
-export default socket
+
+const svg = {
+  draw: (repo, branch, version) => {
+    console.debug("draw", repo, branch, version)
+    const element = document.querySelector(`svg #${repo}_${branch}_version`)
+    if (element) element.innerHTML = version
+  },
+
+  drawAll: state => {
+    Object.keys(state).forEach(repo => {
+      Object.keys(state[repo]).forEach(branch => {
+        svg.draw(repo, branch, state[repo][branch].version)
+      })
+    });
+  }
+}
