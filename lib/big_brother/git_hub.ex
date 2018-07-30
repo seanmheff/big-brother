@@ -4,8 +4,8 @@ defmodule BigBrother.GitHub do
 
     # This is a hack - update all git projects to use "build_tracker" (no extension!)
     url = case repo do
-      "JEM" -> "https://api.github.com/repos/Jibestream/" <> repo <> "/contents/build_tracker"
-      _ -> "https://api.github.com/repos/Jibestream/" <> repo <> "/contents/build_tracker.txt"
+      "JEM-Release" -> "https://api.github.com/repos/Jibestream/" <> repo <> "/contents/build_tracker.txt"
+      _ -> "https://api.github.com/repos/Jibestream/" <> repo <> "/contents/build_tracker"
     end
 
     http_potion_config = [
