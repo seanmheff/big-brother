@@ -1,3 +1,4 @@
+import Toastr from "toastr"
 import { Socket } from "phoenix"
 
 const socket = new Socket("/socket")
@@ -8,6 +9,7 @@ const channel = socket.channel("version:subscribe")
 
 channel.on("publish", ({ repo, branch, version }) => {
   svg.draw(repo, branch, version)
+  Toastr.info(`Deployed ${version} to ${branch} branch`, `Deployed ${repo}`)
 })
 
 channel.join()
