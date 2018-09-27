@@ -1,6 +1,6 @@
 # BigBrother
 
-This project enables you to create an SVG of your architecture, and using GitHub webhooks and websockets, monitor in real-time the versions of your code running on various machines in your system.
+This project enables you to monitor the versions of software you are running on your architecture in real-time using GitHub webhooks and websockets. All you need to supply is an SVG diagram of your system architecture.
 
 ![SVG](https://i.imgur.com/CUBnIP4.png)
 
