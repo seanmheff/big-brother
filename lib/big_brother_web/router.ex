@@ -16,6 +16,7 @@ defmodule BigBrotherWeb.Router do
     pipe_through :browser # Use the default browser stack
 
     get "/", PageController, :index
+    get "/dependencies", PageController, :dependencies
   end
 
   scope "/github", BigBrotherWeb do
