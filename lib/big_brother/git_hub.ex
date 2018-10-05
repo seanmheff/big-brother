@@ -1,5 +1,8 @@
 defmodule BigBrother.GitHub do
+  require Logger
+
   def fetch_version(repo, branch) do
+    Logger.debug "GitHub.fetch_version(#{repo}, #{branch})"
     case fetch_file(repo, branch, "build_tracker") do
       {:ok, file} -> file
       _ -> "Unknown version"
@@ -7,6 +10,7 @@ defmodule BigBrother.GitHub do
   end
 
   def fetch_dependencies(repo, branch) do
+    Logger.debug "GitHub.fetch_dependencies(#{repo}, #{branch})"
     case fetch_file(repo, branch, "package.json") do
       {:ok, file} -> file
       |> Poison.decode!
