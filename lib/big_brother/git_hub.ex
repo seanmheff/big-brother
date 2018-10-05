@@ -1,8 +1,5 @@
 defmodule BigBrother.GitHub do
-  alias HTTPotion.Response
-
   def fetch_version(repo, branch) do
-    IO.puts "GitHub.fetch_version(#{repo}, #{branch})"
     case fetch_file(repo, branch, "build_tracker") do
       {:ok, file} -> file
       _ -> "Unknown version"
@@ -10,7 +7,6 @@ defmodule BigBrother.GitHub do
   end
 
   def fetch_dependencies(repo, branch) do
-    IO.puts "GitHub.fetch_dependencies(#{repo}, #{branch})"
     case fetch_file(repo, branch, "package.json") do
       {:ok, file} -> file
       |> Poison.decode!
@@ -21,7 +17,7 @@ defmodule BigBrother.GitHub do
 
   def fetch_file(repo, branch, file) do
     url = "https://api.github.com/repos/Jibestream/#{repo}/contents/#{file}"
-    %Response{ status_code: status, body: body } = HTTPotion.get(url, [
+    %HTTPotion.Response{ status_code: status, body: body } = HTTPotion.get(url, [
       basic_auth: { System.get_env("API_USER"), System.get_env("API_PASS") },
       headers: %{ "User-Agent": "Big-Brother" },
       query: %{ ref: branch }
