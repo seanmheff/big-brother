@@ -9,7 +9,7 @@ defmodule BigBrotherWeb.PageController do
     json conn, BigBrother.GitHub.fetch_dependencies(repo, branch)
   end
 
-  def dependencies(conn, _parms) do
+  def dependencies(conn, _params) do
     json conn, %{}
   end
 end
